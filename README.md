@@ -9,7 +9,7 @@
 
 ## Specs
 
-This firmware is configured for a Full Bear MK3 fitted with a BigTreeTech SKR 1.4 and TMC2209s:
+This firmware is configured for a Full Bear MK3 fitted with a BigTreeTech SKR 1.4 and TMC5160s:
 
 ### Motherboard
 * [BigTreeTech SKR 1.4](https://www.biqu.equipment/collections/skr-series/products/btt-skr-v1-4-skr-v1-4-pro)
@@ -37,7 +37,7 @@ This firmware is configured for a Full Bear MK3 fitted with a BigTreeTech SKR 1.
 
 
 ### LCD Controller
-* BTT TFT 35
+* [BTT TFT 35](https://www.bigtree-tech.com/products/bigtreetech-tft35-v3-0-display-two-working-modes.html)
 
 ### Wiring Guide
 * [SKR V1.4 Wiring Guide](https://github.com/codiac2600/SKR-MK3s-V1.4-Beta/blob/master/SKR%20MK3s%20Wire%20Guide.pdf)
