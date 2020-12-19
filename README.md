@@ -1,4 +1,4 @@
-# Marlin Firmware for SKR Bear / SKR 1.4 / TMC2209
+# Marlin Firmware for SKR Bear / SKR 1.4 / TMC5160 / P.I.N.D.A 2
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
