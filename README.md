@@ -23,10 +23,10 @@ This firmware is configured for a Full Bear MK3 fitted with a BigTreeTech SKR 1.
 * [BTT TMC2209 V1.2](https://www.biqu.equipment/collections/stepper-motor-board/products/bigtreetech-tmc2209-stepper-motor-driver-for-3d-printer-board-vs-tmc2208) on X/Y/Z/E/E0
 
 ### Steppers
-* **X-axis:** LDO 1.8° motor
-* **Y-axis:** LDO 1.8° motor
-* **Z-axis:** LDO 1.8° motor
-* **Extruder:** LDO 1.8° motor
+* **X-axis:** Zaribo 1.8° motor
+* **Y-axis:** Zaribo 1.8° motor
+* **Z-axis:** Zaribo 1.8° motor
+* **Extruder:** E3D 0.9° motor
 * **Microstepping:** 1/32
 
 ### Hotend
@@ -37,7 +37,7 @@ This firmware is configured for a Full Bear MK3 fitted with a BigTreeTech SKR 1.
 
 
 ### LCD Controller
-* RERAP Discount Smart Controller
+* BTT TFT 35
 
 ### Wiring Guide
 * [SKR V1.4 Wiring Guide](https://github.com/codiac2600/SKR-MK3s-V1.4-Beta/blob/master/SKR%20MK3s%20Wire%20Guide.pdf)
