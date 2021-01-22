@@ -3480,20 +3480,20 @@
   // Serial port used for communication with MMU2.
   // For AVR enable the UART port used for the MMU. (e.g., mmuSerial)
   // For 32-bit boards check your HAL for available serial ports. (e.g., Serial2)
-  #define MMU2_SERIAL_PORT 2
-  #define MMU2_SERIAL mmuSerial
+  #define MMU2_SERIAL_PORT 3
+  #define MMU2_SERIAL Serial3
 
   // Use hardware reset for MMU if a pin is defined for it
-  //#define MMU2_RST_PIN 23
+  #define MMU2_RST_PIN P0_26
 
   // Enable if the MMU2 has 12V stepper motors (MMU2 Firmware 1.0.2 and up)
-  //#define MMU2_MODE_12V
+  #define MMU2_MODE_12V
 
   // G-code to execute when MMU2 F.I.N.D.A. probe detects filament runout
   #define MMU2_FILAMENT_RUNOUT_SCRIPT "M600"
 
   // Add an LCD menu for MMU2
-  //#define MMU2_MENUS
+  #define MMU2_MENUS
   #if ENABLED(MMU2_MENUS)
     // Settings for filament load / unload from the LCD menu.
     // This is for Průša MK3-style extruders. Customize for your hardware.
@@ -3540,7 +3540,7 @@
    * This mode requires a MK3S extruder with a sensor at the extruder idler, like the MMU2S.
    * See https://help.prusa3d.com/en/guide/3b-mk3s-mk2-5s-extruder-upgrade_41560, step 11
    */
-  //#define PRUSA_MMU2_S_MODE
+  #define PRUSA_MMU2_S_MODE
   #if ENABLED(PRUSA_MMU2_S_MODE)
     #define MMU2_C0_RETRY   5             // Number of retries (total time = timeout*retries)
 
