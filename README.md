@@ -1,4 +1,4 @@
-# Marlin Firmware for SKR Bear / SKR 1.4 / TMC5160 / P.I.N.D.A 2
+# Marlin Firmware for SKR Bear / SKR 1.4 / TMC5160 / Super P.I.N.D.A
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
@@ -10,6 +10,8 @@
 ## Specs
 
 This firmware is configured for a Full Bear MK3 fitted with a BigTreeTech SKR 1.4 and TMC5160s:
+
+**AUTO_BED_LEVELING_BILINEAR**
 
 ### Motherboard
 * [BigTreeTech SKR 1.4](https://www.biqu.equipment/collections/skr-series/products/btt-skr-v1-4-skr-v1-4-pro)
